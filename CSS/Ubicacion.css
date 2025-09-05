@@ -1,0 +1,25 @@
+.product-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+/* Responsive for Ubicacion */
+@media (max-width: 768px) {
+  .product-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-content img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-content img {
+    max-width: 250px;
+  }
+}
